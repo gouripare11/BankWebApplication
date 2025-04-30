@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Jun, 2024, 3:25:25 PM
+    Author     : LENOVO
+*/
+.nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    background-color: #e9e9ff;
+    color: rgb(18, 18, 114);
+    padding: 10px;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: -10px;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 45px;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    background-color:  white;
+    height: 100vh;
+}
+
+.sub button{
+    padding-left: 20px;padding-right: 20px;
+    padding-top: 5px;padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(29, 29, 83);
+}
+
+.sub{
+    display: inline;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9e9ff;
+    padding: 80px;padding-top: 20px;padding-bottom: 130px;
+    height: 250px;
+    width: 300px;
+    margin-top: 70px;
+    box-shadow: 6px 6px 16px 1px rgb(127, 127, 146);
+}
+
+.sub input{
+   padding:15px;
+    border: 1px solid rgb(29, 29, 83);
+    border-radius: 10px;
+}
+
+#login{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;padding-bottom: 10px;
+}
+
+#login:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    background-color:rgb(29, 29, 83);
+    color:   #e9e9ff;
+}

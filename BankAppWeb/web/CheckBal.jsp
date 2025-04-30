@@ -1,0 +1,53 @@
+<%-- 
+    Document   : CheckBal
+    Created on : 8 Jul, 2024, 10:45:56 PM
+    Author     : LENOVO
+--%>
+
+<%@page import="com.gouri.bank.bean.AccountBean"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Document</title>
+    <link rel="stylesheet" href="CheckBal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        
+        <%
+            AccountBean ab=(AccountBean) session.getAttribute("user");
+        %>
+    <nav class="nav">
+        <ul type="none">
+            <li><i class="fa-solid fa-building-columns" style="color: rgb(18, 18, 114); font-size: 50px;"></i></li>
+            <li style="font-size: 28px; ">Welcome to menu page !</li>
+            <li>
+                <li id="l"><a href="Registration.html">Register</a></li>
+                <li id="l"><a href="Login.html">Login</a></li>
+          
+            
+        </ul>
+    </nav>
+    
+    <br><br>
+    <h3 align="right" style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(18, 18, 114);">Welcome <%=ab.getCustomer_Name()%></h3>
+       
+    <hr>
+    <div class="a">
+        <div class="sub">
+            <form action="CheckBalance">
+                <p align="center">Check Balance</p><br>
+                <table align="center" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>Account No.&nbsp;</td>
+                        <td><input type="text" name="accno" placeholder="account no." value=<%=ab.getAccount_Number()%>></td>
+                    </tr>
+                </table><br><br><br>
+                <button id="login">Check Balance</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

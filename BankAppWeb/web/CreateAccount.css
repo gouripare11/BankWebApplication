@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Jun, 2024, 3:24:57 PM
+    Author     : LENOVO
+*/
+
+.nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-around;
+    top: 0px;
+    background-color: #e9e9ff;
+    color: rgb(18, 18, 114);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: -10px;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 45px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    background-color:  white;
+    height: 100vh;
+}
+
+.sub button{
+    padding-left: 20px;padding-right: 20px;
+    padding-top: 5px;padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(29, 29, 83);
+}
+
+.sub input{
+   padding:15px;
+    border: 1px solid rgb(29, 29, 83);
+    border-radius: 10px; 
+}
+
+.sub p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color:  rgb(29, 29, 83);
+}
+
+.sub{
+    display: inline;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:  #e9e9ff;
+    border: 2px solid rgb(29, 29, 83);
+    border-radius: 10px;
+    padding: 150px;padding-top: 40px;padding-bottom: 350px;padding-left: 65px;padding-right: 65px;
+    height: 250px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+#l{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;padding-bottom: 10px;
+}
+
+#l:hover{
+    transform: scale(1.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+    background-color:white;
+    color:   #ffffff;
+}
+
+#login{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;padding-bottom: 10px;
+}
+
+#login:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    background-color:rgb(29, 29, 83);
+    color:   #e9e9ff;
+}

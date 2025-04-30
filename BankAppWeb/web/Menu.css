@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Jun, 2024, 4:19:36 PM
+    Author     : LENOVO
+*/
+
+.nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-around;
+    top: 0px;
+    background-color: #e9e9ff;
+    color: rgb(18, 18, 114);
+    padding: 10px;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: -10px;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 45px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.a{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 45px;
+}
+
+#l{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;padding-bottom: 10px;
+}
+
+#l:hover{
+    transform: scale(1.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+    background-color:white;
+    color:   #ffffff;
+}
+
+.a1,.a2,.a3{
+    display: inline;
+    padding-left: 50px;padding-right: 50px;
+    padding-top: 170px;padding-bottom: 170px;
+    background-color:#e9e9ff;
+    border-radius: 14px;
+}
+
+.a1 a,.a2 a,.a3 a{
+    text-decoration: none;
+    color: rgb(18, 18, 114);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#l{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;padding-bottom: 10px;
+}
+
+#l:hover{
+    transform: scale(1.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+    background-color:white;
+    color:   #ffffff;
+}
+
+#la{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;padding-bottom: 10px;
+}
+
+#la:hover{
+    transform: scale(1.3);
+    border-radius: 10px;
+    transition: all 0.3s;
+    background-color:white;
+    color: rgb(29, 29, 83);
+}
