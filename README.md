@@ -29,13 +29,13 @@ A web-based banking application that provides users with essential banking featu
 
 3. Set Up the Database: Open MySQL Workbench and create the database:
     CREATE DATABASE march16;
-- This database consosts of three tables: account_table (consisting user informaton), transfer_table (tracking tranfer details), users (consisting username and password)
-- Import the provided .sql file to create tables and initial data. 
+- This database consists of three tables: account_table (consisting user informaton), transfer_table (tracking tranfer details), users (consisting username and password)
+- Import the provided .sql file to create tables and data. 
 
 4. Configure JDBC Connection: In the project files update just your password of MySQL int DBUtil.java file in com.gouri.bank.util package
     String url="jdbc:mysql://localhost:3306/march16";
     String un="root";
-    String ps="<your password>";
+    String ps="<your mysql password>";
 - Also, ensure mysql-connector-java.jar is added to your NetBeans project libraries.
 
 5. Set Up NetBeans Project:
@@ -44,7 +44,7 @@ A web-based banking application that provides users with essential banking featu
 6. Run:
 - Right click on the Login.jsp page in the Wed Pages folder in the main project file, then click on run.
 
-&. Usage
+7. Usage
 - The Login page will open
 - Start with **clicking on CreateNewAccount** to freshly start with new user
 - Enter the required credentials and **click on Create Account** button
